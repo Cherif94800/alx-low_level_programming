@@ -1,0 +1,2 @@
+#!/bin/bash
+ccg -S $CFILE
