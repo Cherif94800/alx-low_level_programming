@@ -1,2 +1,2 @@
 #!/bin/bash
-ccg -S $CFILE
+ccg 2-main.c
