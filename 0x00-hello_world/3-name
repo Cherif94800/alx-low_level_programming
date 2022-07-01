@@ -1,2 +1,2 @@
 #!/bin/bash
-cgg -E $CFILE -o cisfun
+cgg -E $3-main.c ; ./3-name -o cisfun
