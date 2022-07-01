@@ -1,2 +1,0 @@
-#!/bin/bash
-cgg -E $3-main.c ; ./3-name -o cisfun
