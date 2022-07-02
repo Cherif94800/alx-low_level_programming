@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main - print single digit numbers
  *
- * Description: print single digit numbers of base 10 starting 0
- * followed by a new line
- *  
+ * Description: print single digit numbers
+ *
  * Return: Always 0 (Success)
  */
 
