@@ -1,15 +1,15 @@
-#include «main.h»
+#include "main.h"
 
 /**
- * _print_rev_recursion - imprimer une chaîne à l’envers
- * @s: chaîne
+ * _print_rev_recursion - print a string in reverse
+ * @s: string
  */
 
-vide _print_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
-		rendre;
+		return;
 
- _print_rev_recursion(s) + 1);
- _putchar(s) ;
+	_print_rev_recursion(s + 1);
+	_putchar(*s);
 }
